@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="VIT Chennai Pulse — Contact the newsroom, submit tips, and manage subscriptions." />
+  <title>Contact — VIT Chennai Pulse</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="visually-hidden" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="topbar">
+      <div class="brand">
+        <svg viewBox="0 0 48 48" aria-hidden="true"><rect x="2" y="2" width="44" height="44" rx="8" fill="#3b82f6"></rect><path d="M12 34 L24 14 L36 34" stroke="#22c55e" stroke-width="4" fill="none"/></svg>
+        <div>
+          <div class="name">VIT Chennai Pulse</div>
+          <div class="tagline">Contact</div>
+        </div>
+      </div>
+      <form class="search-bar" role="search">
+        <label for="q" class="visually-hidden">Search</label>
+        <input id="q" name="q" type="search" placeholder="Search site…" />
+        <button type="submit">Search</button>
+      </form>
+      <div class="badges"><span class="badge">Tips</span><span class="badge">Feedback</span></div>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="sports.html">Sports</a></li>
+        <li><a href="studentlife.html">Student Life</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <header>
+      <h1>Contact the newsroom</h1>
+      <p class="meta">Submit tips, feedback, or manage subscriptions</p>
+    </header>
+
+    <section aria-label="Contact form">
+      <form action="#" method="post">
+        <div class="row">
+          <div>
+            <label for="fullname">Full name</label>
+            <input id="fullname" name="fullname" type="text" required />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required />
+          </div>
+        </div>
+        <div class="row">
+          <div>
+            <label for="topic">Topic</label>
+            <select id="topic" name="topic" required>
+              <option value="tip">News tip</option>
+              <option value="feedback">Feedback</option>
+              <option value="subscription">Subscription</option>
+              <option value="events">Events</option>
+              <option value="sports">Sports</option>
+              <option value="academics">Academics</option>
+            </select>
+          </div>
+          <div>
+            <label for="priority">Priority</label>
+            <select id="priority" name="priority">
+              <option>Normal</option>
+              <option>High</option>
+              <option>Urgent</option>
+            </select>
+          </div>
+        </div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" placeholder="Write your message…" required></textarea>
+        <div class="row">
+          <div>
+            <label for="consent">
+              <input id="consent" name="consent" type="checkbox" required />
+              I agree to the processing of my data for this inquiry.
+            </label>
+          </div>
+          <div>
+            <label for="attachment">Attachment (optional)</label>
+            <input id="attachment" name="attachment" type="file" />
+          </div>
+        </div>
+        <button type="submit">Send message</button>
+      </form>
+    </section>
+
+    <section class="mt-2" aria-label="Office info">
+      <div class="card">
+        <div class="content">
+          <h2>Office</h2>
+          <address>
+            VIT Chennai Pulse • Editorial Office<br />
+            VIT Chennai, Kelambakkam–Vandalur Road, Rajan Nagar, Chennai, TN, India<br />
+            Open: Mon–Fri, 9:00–18:00 IST
+          </address>
+          <p>We respect confidentiality and encourage encrypted communication for sensitive tips.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-2" aria-label="FAQ">
+      <article class="card">
+        <div class="content">
+          <h2>FAQ</h2>
+          <details class="details">
+            <summary>How do I submit a confidential tip?</summary>
+            <p>Use the form above and indicate “News tip” with “Urgent” priority. We will follow up.</p>
+          </details>
+          <details class="details">
+            <summary>Where can I manage my subscription?</summary>
+            <p>Use the topic “Subscription” and include your registered email address.</p>
+          </details>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <section>
+        <h3>Addresses</h3>
+        <ul>
+          <li>Academics Desk</li>
+          <li>Events Desk</li>
+          <li>Sports Desk</li>
+          <li>Student Life Desk</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Policies</h3>
+        <ul>
+          <li>Ethics</li>
+          <li>Corrections</li>
+          <li>Accessibility</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Contact</h3>
+        <address>Newsroom • VIT Chennai Pulse</address>
+        <small>&copy; 2026 VIT Chennai Pulse</small>
+      </section>
+    </div>
+  </footer>
+</body>
+</html>
